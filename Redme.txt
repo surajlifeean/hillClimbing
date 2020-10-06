@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 23 12:44:42 2020
+
+@author: 
+"""
+Reading image matrix from the file. The file face.png is in the root directory of the project
+img=cv2.imread('face.png')
+img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # to convert it into a grayscale image
+
+
+Below varible values could be modified based on the requirements
+
+per = 2   # Percentage of cells to be selected for mutations
+W=10                   #width
+J=10                   #height
+
+The iteration at the end needs to be modified based in the value of the above parameter to see
+the best result 
+
+
+
+
+
